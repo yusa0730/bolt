@@ -17,13 +17,20 @@
   margin: 0 auto;
 }
 
+img {
+  vertical-align: bottom;
+}
+
+body{
+  font-family: 'Lato';
+}
 /*=================ヘッダー==================*/
 .header {
   background-color: #fff;
   width: 100%;
   position: fixed;
   padding: 15px 0;
-  /*z-index:1;*/
+  z-index:1;
 }
 
 .header_inner {
@@ -59,6 +66,8 @@
 
 .main {
   height: 100%;
+  /*ヘッダー分のpadding*/
+  padding-top: 78px;
 }
 
 /*===================テーマ=====================*/
@@ -73,7 +82,7 @@
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
-  font-family: 'Lato';
+  font-family: 'Raleway';
 }
 
 .bolt-boot {
@@ -202,6 +211,11 @@
 
 /*===================skills===================*/
 
+.skill-inner {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .skills {
   padding: 70px 0 100px 0;
   background-color: #4e4e4e;
@@ -211,50 +225,30 @@
   font-size: 24px;
   color: white;
   text-align: center;
-  padding-top: 70px;
+  /*padding-top: 70px;*/
+  font-family: 'Raleway';
 }
 
 .skills-box {
   margin-top: 70px;
+  display: inline-block;
+  text-align: center;
 }
 
-.skill-image:first-child {
-  margin-left: 0;
-}
-
-.skill-image {
+.skill-li {
+  float: left;
   margin-left: 180px;
 }
 
-.skilltext-box {
-  position: relative;
-  margin-bottom: 100px;
+.skill-li:first-child {
+  margin-left: 0;
 }
 
 .skill-text {
   color: white;
   top: 10px;
   font-size: 16px;
-}
-
-.skill-js {
-  position: absolute;
-  left: 30px;
-}
-
-.skill-bs {
-  position: absolute;
-  left: 330px;
-}
-
-.skill-wp {
-  position: absolute;
-  right: 395px;
-}
-
-.skill-ps {
-  position: absolute;
-  right: 85px;
+  font-family: 'Raleway';
 }
 
 /*=====================SNS========================*/
@@ -296,9 +290,9 @@
 
 .footer {
   background-color: #74cfae;
+  padding: 20px 0 25px 0;
 }
 .footer-text {
     color: white;
     text-align: right;
-    padding: 20px 0 25px 0;
 }
