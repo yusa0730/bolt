@@ -21,8 +21,12 @@ img {
   vertical-align: bottom;
 }
 
-body{
+body {
   font-family: 'Lato';
+}
+
+.is-raleway {
+  font-family: 'Raleway';
 }
 /*=================ヘッダー==================*/
 .header {
@@ -63,12 +67,54 @@ body{
   transition: 0.3s;
 }
 
+/*@media (min-width:1200px){
+  .header{
+    width: 1100px;
+  }
+}*/
+/*@media (min-width:768px){
+  .header{
+    width: 97%;
+  }
+
+  .head-button {
+    margin-right: 0;
+  }
+}
+@media (max-width:767px){
+  .header{
+    width: 97%;
+  }
+  .head-button a{
+    display: none;
+  }
+  .humberger{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .humberger div{
+    height: 3px;
+    background-color: #ddd;
+    margin-bottom: 4.5px;
+    width: 30px;
+  }
+  .humberger div:last-child{
+    margin-bottom: 0;
+  }
+}*/
 
 .main {
   height: 100%;
   /*ヘッダー分のpadding*/
   padding-top: 78px;
 }
+
+/*@media (min-width:768px){
+  .main {
+    width: 97%;
+  }
+}*/
 
 /*===================テーマ=====================*/
 
@@ -82,7 +128,7 @@ body{
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
-  font-family: 'Raleway';
+  /*font-family: 'Raleway';*/
 }
 
 .bolt-boot {
@@ -97,6 +143,28 @@ body{
   background-color: #f2f2f2;
 }
 
+/*@media (min-width:1200px){
+  .theme {
+    width: 1100px;
+  }
+}*/
+/*@media (min-width:768px){
+  .theme {
+    width: 97%;
+  }
+}*/
+/*@media (max-width:767px){
+  .theme {
+    padding: 160px 0 130px;
+  }
+  .theme {
+    width: 97%;
+  }
+  .bolt-theme{
+    font-size: 80px;
+  }
+}*/
+
 
 /*=====================what we can do?========================*/
 
@@ -107,10 +175,8 @@ body{
 
 .image-box {
   float: left;
-}
-
-.what-image {
-  margin-left: 170px;
+  /*3回目レビュー指摘箇所*/
+  padding-left: 170px;
 }
 
 .what-box {
@@ -124,6 +190,7 @@ body{
 .what-heading {
   font-size: 24px;
   color: white;
+  /*font-family: 'Raleway';*/
 }
 
 .what-text {
@@ -131,6 +198,43 @@ body{
   margin-top: 35px;
   color: white;
 }
+
+/*@media (min-width: 1200px){
+  .what {
+    width: 1100px;
+  }
+  .image-box {
+    float: left;
+    padding-left: 100px;
+  }
+  .what-box {
+    float:right;
+    text-align: center;
+  }
+}*/
+/*@media (max-width: 1099px){
+  .what {
+    padding-bottom: 25px;
+  }
+  .inner {
+    width: 97%;
+  }
+  .what-box {
+    float: none;
+    margin: 0 auto;
+  }
+  .image-box {
+    float: none;
+    margin-bottom: 20px;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+@media (max-width:767px){
+  .what-text {
+    width: auto;
+  }
+}*/
 
 /*=======================画像６つ作品=========================*/
 
@@ -144,7 +248,7 @@ body{
   /*padding-top: 60px;*/
   text-align: center;
   font-size: 24px;
-  font-family: 'Raleway';
+  /*font-family: 'Raleway';*/
 }
 
 .work-image-box {
@@ -184,7 +288,7 @@ body{
     text-align: center;
     font-size: 16px;
     line-height: 26px;
-    font-family: 'Raleway';
+    /*font-family: 'Raleway';*/
     margin-left: 140px;
 }
 
@@ -208,6 +312,34 @@ body{
   transition: 0.3s;
 }
 
+/*@media (min-width:1200px){
+  .work-box {
+    width: 1100px;
+  }
+  .work-image-box {
+    display: inline-block;
+    margin-bottom: 90px;
+  }
+  .contents-work__main__thumb{
+    display: inline-block;
+    margin: 80px 0 0 100px;
+  }
+  .contents-work__main__thumb:nth-child(3n+1){
+    margin-left: 0;
+  }
+  .contents-work__main__thumb:nth-child(-n+3){
+    margin-top: 0;
+  }
+  .contents-work__foot div{
+    margin-left: 90px;
+    float: left;
+  }
+  .contents-work__foot div:first-child{
+    margin-left: 0;
+  }
+}*/
+
+
 
 /*===================skills===================*/
 
@@ -226,7 +358,7 @@ body{
   color: white;
   text-align: center;
   /*padding-top: 70px;*/
-  font-family: 'Raleway';
+  /*font-family: 'Raleway';*/
 }
 
 .skills-box {
@@ -248,8 +380,22 @@ body{
   color: white;
   top: 10px;
   font-size: 16px;
-  font-family: 'Raleway';
+  /*font-family: 'Raleway';*/
 }
+
+/*@media (min-width:1200px){
+  .contents-skill__inner{
+    width: 1100px;
+  }
+  .contents-skill__item__inner__thumb{
+    float: left;
+    margin-left: 180px; 
+  }
+  .contents-skill__item__inner__thumb:first-child{
+    margin-left: 0;
+  }
+}*/
+
 
 /*=====================SNS========================*/
 
@@ -284,7 +430,36 @@ body{
 
 .social-box:hover {
   background-color: white;
+  transition: 0.3s;
 }
+
+/*@media (min-width:1200px){
+  .social{
+    width: 1100px;
+  }
+}
+@media (min-width:768px){
+  .social-box{
+    float: none;
+    margin: 0 15px;
+  }
+}
+@media (max-width: 1199px){
+  .social{
+    width: 97%;
+  }
+}*/
+/*@media (min-width:767px){
+  .sns{
+    padding: 50px 0;
+  }
+
+  .social-box {
+    display: inline-block;
+    width: 185px;
+    padding: 20px 0;
+  }
+}*/
 
 /*===================フッター====================*/
 
@@ -296,3 +471,13 @@ body{
     color: white;
     text-align: right;
 }
+/*@media (min-width:1200px){
+  .footer-inner{
+    width: 1100px;
+  }
+}
+@media (max-width: 1199px){
+  .footer-inner{
+    width: 97%;
+  }
+}*/
