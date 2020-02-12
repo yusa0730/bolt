@@ -271,13 +271,13 @@ body {
 
 .social-box {
   display: inline-block;
+  width: 185px;
   /*width: 185px;
   padding: 20px 0;*/
 }
 
 .social-box a {
   transition-duration: .3s;
-  width: 185px;
   padding: 20px 0;
 }
 
@@ -469,9 +469,10 @@ body {
   .social-box {
     display: block;
     margin: 0 auto;
-  }
-
-  .social-box a {
     width: 100%;
   }
+
+  /*.social-box a {
+    width: 100%;
+  }*/
 }
